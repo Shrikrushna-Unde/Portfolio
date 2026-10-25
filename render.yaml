@@ -1,0 +1,7 @@
+# Render Blueprint — static site, no build step.
+# Docs: https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: shrikrushna-portfolio
+    runtime: static
+    staticPublishPath: .
